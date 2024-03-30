@@ -1,0 +1,38 @@
+.logo-section {
+    height: 6rem;
+
+}
+.profile-image{
+    height: 3.5rem;    
+}
+.container {
+    height: 6rem;
+    width: 94rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 10rem 0 10rem;
+}
+.container ul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: black;
+}
+.container ul li a{
+    color: black;
+}
+.user-profile .profile-image{
+    height: 2.8rem;
+    border-radius: 9999px;
+}
+.user-profile .menu-items{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.container a .logo-section{
+    height: 3.5rem;
+}

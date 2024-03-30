@@ -1,9 +1,10 @@
 import './App.css';
+import Layout from './pages/Layout';
 
 function App() {
   return (
     <>
-    React Project
+    <Layout></Layout>
     </>
   );
 }
