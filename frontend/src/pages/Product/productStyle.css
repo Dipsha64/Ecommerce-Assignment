@@ -1,0 +1,7 @@
+.list-section {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.list-section .right-section {
+    overflow: scroll;
+}

@@ -2,6 +2,11 @@ const express = require("express");
 const app = express();
 app.use(express.json());
 const dotenv = require("dotenv").config();
+const cors = require("cors");
+const corsOption = {
+    origin : true
+}
+app.use(cors(corsOption));
 
 const connectDb = require("./config/dbConnections");
 connectDb();

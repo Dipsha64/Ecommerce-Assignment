@@ -24,7 +24,7 @@
     font-size: 1rem;
 }
 .right-section .form-field {
-    padding-bottom: 1.5rem;
+    padding-top : 1.5rem;
 }
 .right-section .button-section button{
     border-radius: 3rem;
@@ -47,4 +47,7 @@
 }
 .right-section span{
     padding-left: 8rem;
+}
+.text-red-500{
+    color: red;
 }

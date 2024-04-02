@@ -18,8 +18,8 @@ function Header() {
             display : "Home"
         },
         {
-            path : "/shop",
-            display : "Shop"
+            path : "/product",
+            display : "Product"
         },
     ]
 
