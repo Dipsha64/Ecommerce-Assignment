@@ -25,7 +25,7 @@ const orderSchema = mongoose.Schema({
         default: "pending",
     }
 },{
-    timetimestamps : true
+    timestamps : true
 })
 
 module.exports = mongoose.model("orders",orderSchema);

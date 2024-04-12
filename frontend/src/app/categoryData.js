@@ -1,8 +1,4 @@
-const data = [
-    {
-        "name" : "Biscuite",
-        "value" : "biscuite"
-    },
+export const categoryObj = [
     {
         "name" : "Biscuite",
         "value" : "biscuite"
@@ -48,5 +44,3 @@ const data = [
         "value" : "pizza"
     }
 ];
-
-export default data;

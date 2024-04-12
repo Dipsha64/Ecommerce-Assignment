@@ -1,7 +1,24 @@
 .list-section {
     display: grid;
     grid-template-columns: 20% 80%;
+    padding-left: 3rem;
 }
 .list-section .right-section {
     overflow: scroll;
+}
+.main-list{
+    margin-top: 4rem;
+}
+.left-section .checkbox-filter{
+    height: 20rem;
+    overflow: scroll;
+    line-height: 2rem;
+}
+.checkbox-filter .field-item label{
+    padding-left: 0.7rem;
+    font-size: 1.2rem;
+}
+.field-item input{
+    width: 20px;
+    height: 20px;
 }
